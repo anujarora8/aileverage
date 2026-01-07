@@ -13,12 +13,8 @@ const Hero = () => {
             AI Leverage Group
           </h1>
           
-          <p className="text-2xl md:text-3xl text-foreground mb-6 animate-fade-up" style={{ animationDelay: '0.1s' }}>
-            Turning AI innovation into market leadership.
-          </p>
-          
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: '0.2s' }}>
-            Strategic Go-To-Market advisory and execution.
+          <p className="text-xl md:text-2xl text-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: '0.1s' }}>
+            Product Strategy + GTM for the AI-First Era.
           </p>
         </div>
       </div>

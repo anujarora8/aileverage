@@ -6,23 +6,18 @@ const EngagementModel = () => {
     <section id="engagement" className="py-24 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="font-display text-3xl md:text-4xl font-bold mb-6">
             Focused. Senior. Hands-on.
           </h2>
           
-          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-            I operate as a high-bandwidth extension of your leadership team. Because I limit the number 
-            of active engagements, every partner receives direct access, deep strategic focus, and 
-            execution-level support.
-          </p>
-          
           <p className="text-lg text-muted-foreground leading-relaxed mb-10">
-            My advisory spans the full GTM lifecycle - from market positioning and pricing strategy to 
-            customer acquisition and launch execution - ensuring every piece is optimized for the AI era.
+            I operate as a high-bandwidth extension of your leadership team. I integrate product 
+            strategy with the full GTM lifecycle—from positioning and pricing to customer acquisition 
+            and launch execution—ensuring every piece is optimized for the AI era.
           </p>
 
           <p className="text-lg text-muted-foreground mb-8">
-            Currently accepting a limited number of new advisory roles for 2026.
+            Accepting a limited number of new advisory roles for 2026.
           </p>
           
           <div className="flex flex-col sm:flex-row items-start gap-4">
