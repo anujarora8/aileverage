@@ -1,17 +1,8 @@
-import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-
 const About = () => {
-  const { ref, isVisible } = useScrollAnimation(0.2);
-
   return (
     <section id="about" className="py-24 relative">
       <div className="container mx-auto px-6">
-        <div 
-          ref={ref}
-          className={`max-w-3xl mx-auto mb-16 transition-all duration-700 ${
-            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
-        >
+        <div className="max-w-3xl mx-auto mb-16">
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-6">
             The Intersection of Strategy and Intelligence
           </h2>
