@@ -11,7 +11,7 @@ const Footer = () => {
             className="h-8 w-auto invert opacity-60"
           />
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} AI Leverage Group
+            © {new Date().getFullYear()} AI Leverage LLC
           </p>
         </div>
       </div>
