@@ -15,7 +15,7 @@ const About = () => {
             
             <p>
               Market leadership requires a tight coupling of product excellence and GTM precision. 
-              I partner with founders and executive teams to build that integrated engine—moving 
+              I partner with founders and executive teams to build that integrated engine - moving 
               beyond the hype to create sustainable, scalable revenue.
             </p>
           </div>

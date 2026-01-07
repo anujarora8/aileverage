@@ -12,8 +12,8 @@ const EngagementModel = () => {
           
           <p className="text-lg text-muted-foreground leading-relaxed mb-10">
             I operate as a high-bandwidth extension of your leadership team. I integrate product 
-            strategy with the full GTM lifecycle—from positioning and pricing to customer acquisition 
-            and launch execution—ensuring every piece is optimized for the AI era.
+            strategy with the full GTM lifecycle - from positioning and pricing to customer acquisition 
+            and launch execution - ensuring every piece is optimized for the AI era.
           </p>
 
           <p className="text-lg text-muted-foreground mb-8">
