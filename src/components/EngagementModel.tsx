@@ -1,11 +1,19 @@
 import { Button } from "@/components/ui/button";
 import { Linkedin, Mail } from "lucide-react";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const EngagementModel = () => {
+  const { ref, isVisible } = useScrollAnimation(0.2);
+
   return (
     <section id="engagement" className="py-24 relative">
       <div className="container mx-auto px-6">
-        <div className="max-w-3xl mx-auto">
+        <div 
+          ref={ref}
+          className={`max-w-3xl mx-auto transition-all duration-700 ${
+            isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+        >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-6">
             Focused. Senior. Hands-on.
           </h2>
