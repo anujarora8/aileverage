@@ -14,11 +14,11 @@ const Hero = () => {
           </h1>
           
           <p className="text-2xl md:text-3xl text-foreground mb-6 animate-fade-up" style={{ animationDelay: '0.1s' }}>
-            Turning AI innovation into market leadership.
+            Turning AI innovation into market leadership
           </p>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: '0.15s' }}>
-            Strategic Go-To-Market advisory and execution.
+            Strategic Go-To-Market advisory and execution
           </p>
         </div>
       </div>
