@@ -27,7 +27,7 @@ const EngagementModel = () => {
           
           <div className="flex flex-col sm:flex-row items-start gap-4">
             <Button variant="hero" size="lg" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/anujarora95/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5" />
                 Connect on LinkedIn
               </a>
