@@ -21,13 +21,13 @@ const EngagementModel = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-start gap-4">
-            <Button variant="hero" size="lg" asChild>
+            <Button variant="hero" size="lg" className="w-full sm:w-52" asChild>
               <a href="https://www.linkedin.com/in/anujarora95/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5" />
                 Connect on LinkedIn
               </a>
             </Button>
-            <Button variant="heroOutline" size="lg" asChild>
+            <Button variant="heroOutline" size="lg" className="w-full sm:w-52" asChild>
               <a href="mailto:anuj@aileverage.dev">
                 <Mail className="w-5 h-5" />
                 Send an Email
