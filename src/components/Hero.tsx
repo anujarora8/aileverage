@@ -1,4 +1,5 @@
 import { ChevronDown } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -9,12 +10,22 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 animate-fade-up">
+          <img 
+            src={logo} 
+            alt="" 
+            className="h-16 md:h-20 w-auto mx-auto mb-8 invert opacity-80 animate-fade-up"
+          />
+          
+          <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 animate-fade-up" style={{ animationDelay: '0.05s' }}>
             AI Leverage Group
           </h1>
           
-          <p className="text-xl md:text-2xl text-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: '0.1s' }}>
-            Product Strategy + GTM for the AI-First Era.
+          <p className="text-2xl md:text-3xl text-foreground mb-6 animate-fade-up" style={{ animationDelay: '0.1s' }}>
+            Turning AI innovation into market leadership.
+          </p>
+          
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: '0.15s' }}>
+            Strategic Go-To-Market advisory and execution.
           </p>
         </div>
       </div>
