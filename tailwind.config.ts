@@ -16,6 +16,7 @@ export default {
       fontFamily: {
         sans: ['Manrope', 'sans-serif'],
         display: ['Manrope', 'sans-serif'],
+        tight: ['Inter Tight', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
