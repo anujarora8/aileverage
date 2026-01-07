@@ -21,7 +21,7 @@ const EngagementModel = () => {
             customer acquisition and launch execution - ensuring every piece is optimized for the AI era.
           </p>
 
-          <p className="text-muted-foreground mb-8">
+          <p className="text-lg text-muted-foreground mb-8">
             Currently accepting a limited number of new advisory roles for 2026.
           </p>
           
