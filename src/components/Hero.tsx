@@ -1,13 +1,6 @@
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
-
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
-      {/* Background glow effects */}
-      <div className="hero-glow top-1/4 left-1/4 animate-pulse-slow" />
-      <div className="hero-glow bottom-1/4 right-1/4 animate-pulse-slow" style={{ animationDelay: '2s' }} />
-      
       {/* Grid pattern overlay */}
       <div 
         className="absolute inset-0 opacity-[0.03]"
@@ -20,17 +13,17 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed animate-fade-up">
-            Strategic consulting for AI companies seeking to dominate their markets. 
-            Combine cutting-edge AI expertise with proven GTM frameworks.
+          <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 animate-fade-up">
+            AI Leverage LLC
+          </h1>
+          
+          <p className="text-2xl md:text-3xl text-foreground mb-6 animate-fade-up" style={{ animationDelay: '0.1s' }}>
+            Turning AI innovation into market leadership.
           </p>
           
-          <div className="flex items-center justify-center animate-fade-up" style={{ animationDelay: '0.1s' }}>
-            <Button variant="hero" size="xl">
-              Schedule Consultation
-              <ArrowRight className="w-5 h-5" />
-            </Button>
-          </div>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: '0.2s' }}>
+            Strategic Go-To-Market advisory and execution for companies building the future.
+          </p>
         </div>
       </div>
     </section>
