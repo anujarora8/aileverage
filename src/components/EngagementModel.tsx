@@ -17,8 +17,8 @@ const EngagementModel = () => {
           </p>
           
           <p className="text-lg text-muted-foreground leading-relaxed mb-10">
-            My advisory spans the full GTM lifecycle—from market positioning and pricing strategy to 
-            customer acquisition and launch execution—ensuring every piece is optimized for the AI era.
+            My advisory spans the full GTM lifecycle - from market positioning and pricing strategy to 
+            customer acquisition and launch execution - ensuring every piece is optimized for the AI era.
           </p>
 
           <p className="text-muted-foreground mb-8">
