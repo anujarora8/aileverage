@@ -1,5 +1,4 @@
 import { ChevronDown } from "lucide-react";
-import logo from "@/assets/logo.png";
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -10,13 +9,7 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <img 
-            src={logo} 
-            alt="" 
-            className="h-16 md:h-20 w-auto mx-auto mb-8 invert opacity-80 animate-fade-up"
-          />
-          
-          <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 animate-fade-up" style={{ animationDelay: '0.05s' }}>
+          <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 animate-fade-up">
             AI Leverage Group
           </h1>
           
