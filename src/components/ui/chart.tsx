@@ -58,6 +58,30 @@ const ChartContainer = React.forwardRef<
 });
 ChartContainer.displayName = "Chart";
 
+// Sanitization helpers for CSS injection prevention
+// SECURITY: These validators ensure config keys and colors cannot be used for CSS injection attacks
+const isValidCssKey = (key: string): boolean => {
+  // Only allow alphanumeric characters, hyphens, and underscores
+  return /^[a-zA-Z0-9_-]+$/.test(key);
+};
+
+const isValidCssColor = (color: string): boolean => {
+  // Allow common CSS color formats: hex, rgb, rgba, hsl, hsla, and named colors
+  const hexPattern = /^#([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6}|[0-9A-Fa-f]{8})$/;
+  const rgbPattern = /^rgba?\(\s*\d{1,3}\s*,\s*\d{1,3}\s*,\s*\d{1,3}\s*(,\s*(0|1|0?\.\d+))?\s*\)$/;
+  const hslPattern = /^hsla?\(\s*\d{1,3}\s*,\s*\d{1,3}%\s*,\s*\d{1,3}%\s*(,\s*(0|1|0?\.\d+))?\s*\)$/;
+  const namedColorPattern = /^[a-zA-Z]+$/;
+  const cssVarPattern = /^var\(--[a-zA-Z0-9_-]+\)$/;
+  
+  return (
+    hexPattern.test(color) ||
+    rgbPattern.test(color) ||
+    hslPattern.test(color) ||
+    namedColorPattern.test(color) ||
+    cssVarPattern.test(color)
+  );
+};
+
 const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
   const colorConfig = Object.entries(config).filter(([_, config]) => config.theme || config.color);
 
@@ -65,23 +89,38 @@ const ChartStyle = ({ id, config }: { id: string; config: ChartConfig }) => {
     return null;
   }
 
+  // Build CSS using validated values only
+  const cssContent = Object.entries(THEMES)
+    .map(([theme, prefix]) => {
+      const cssVars = colorConfig
+        .map(([key, itemConfig]) => {
+          // Validate key to prevent CSS injection
+          if (!isValidCssKey(key)) {
+            console.warn(`ChartStyle: Invalid config key "${key}" skipped`);
+            return null;
+          }
+          
+          const color = itemConfig.theme?.[theme as keyof typeof itemConfig.theme] || itemConfig.color;
+          
+          // Validate color value to prevent CSS injection
+          if (color && !isValidCssColor(color)) {
+            console.warn(`ChartStyle: Invalid color value for "${key}" skipped`);
+            return null;
+          }
+          
+          return color ? `  --color-${key}: ${color};` : null;
+        })
+        .filter(Boolean)
+        .join("\n");
+      
+      return `${prefix} [data-chart=${id}] {\n${cssVars}\n}`;
+    })
+    .join("\n");
+
   return (
     <style
       dangerouslySetInnerHTML={{
-        __html: Object.entries(THEMES)
-          .map(
-            ([theme, prefix]) => `
-${prefix} [data-chart=${id}] {
-${colorConfig
-  .map(([key, itemConfig]) => {
-    const color = itemConfig.theme?.[theme as keyof typeof itemConfig.theme] || itemConfig.color;
-    return color ? `  --color-${key}: ${color};` : null;
-  })
-  .join("\n")}
-}
-`,
-          )
-          .join("\n"),
+        __html: cssContent,
       }}
     />
   );
