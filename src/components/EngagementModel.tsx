@@ -7,10 +7,15 @@ const EngagementModel = () => {
             Focused. Senior. Hands-on.
           </h2>
           
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
             I operate as a high-bandwidth extension of your leadership team. Because I limit the number 
             of active engagements, every partner receives direct access, deep strategic focus, and 
             execution-level support.
+          </p>
+          
+          <p className="text-lg text-muted-foreground leading-relaxed">
+            My advisory spans the full GTM lifecycle—from market positioning and pricing strategy to 
+            customer acquisition and launch execution—ensuring every piece is optimized for the AI era.
           </p>
         </div>
       </div>
