@@ -3,7 +3,7 @@ const About = () => {
     <section id="about" className="py-24 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-4 text-center">
+          <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
             The Intersection of Strategy and Intelligence
           </h2>
           
@@ -21,7 +21,7 @@ const About = () => {
           </div>
           
           <p className="mt-8 text-foreground font-medium">
-            — Anuj Arora, Founder & Principal Consultant
+            - Anuj Arora, Founder & Principal Consultant
           </p>
         </div>
       </div>
