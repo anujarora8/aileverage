@@ -16,7 +16,7 @@ const EngagementModel = () => {
           </p>
 
           <p className="text-lg text-muted-foreground mb-8">
-            Accepting a limited number of new advisory roles for 2026.
+            Limited engagements for 2026.
           </p>
           
           <div className="flex flex-col sm:flex-row items-start gap-4">

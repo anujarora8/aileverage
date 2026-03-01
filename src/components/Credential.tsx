@@ -9,7 +9,9 @@ const Credential = () => {
           
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
-              This isn't theory. I've hired the teams, built the playbooks, and delivered the outcomes. At scale.
+              I led the transformation at Ada — from rule-based chatbot to production-scale agentic 
+              AI — owning presales, solutions, and customer success through every phase. I know where 
+              it breaks, what to hire first, and how to get enterprise customers to bet on you anyway.
             </p>
             
             <p className="text-foreground/80 font-medium">
