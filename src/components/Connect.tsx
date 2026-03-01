@@ -6,6 +6,9 @@ const Connect = () => {
     <section id="connect" className="py-24 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto">
+          <h3 className="font-display text-xl md:text-2xl font-bold mb-4">
+            Focused. Senior. Hands-on.
+          </h3>
           <p className="text-lg text-muted-foreground leading-relaxed mb-10">
             Accepting a limited number of new advisory roles for 2026.
           </p>
