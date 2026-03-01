@@ -10,11 +10,11 @@ const Hero = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 animate-fade-up">
-            AI Leverage Group
+            I help software companies become AI companies.
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: '0.1s' }}>
-            Strategic Go-To-Market advisory and execution services
+            Not with a deck. With a playbook I've already run.
           </p>
         </div>
       </div>

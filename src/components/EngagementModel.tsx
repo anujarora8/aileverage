@@ -7,17 +7,16 @@ const EngagementModel = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-6">
-            Focused. Senior. Hands-on.
+            Who It's For
           </h2>
           
           <p className="text-lg text-muted-foreground leading-relaxed mb-10">
-            I operate as a high-bandwidth extension of your leadership team. I integrate product 
-            strategy with the full GTM lifecycle - from positioning and pricing to customer acquisition 
-            and launch execution - ensuring every piece is optimized for the AI era.
+            Software companies with traction who know they need to evolve but don't have the 
+            internal expertise to lead an AI transformation without getting it wrong.
           </p>
 
           <p className="text-lg text-muted-foreground mb-8">
-            Accepting a limited number of new advisory roles for 2026.
+            Limited engagements for 2026.
           </p>
           
           <div className="flex flex-col sm:flex-row items-start gap-4">

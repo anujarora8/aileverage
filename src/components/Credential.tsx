@@ -1,26 +1,25 @@
-const About = () => {
+const Credential = () => {
   return (
-    <section id="about" className="py-24 relative">
+    <section id="credential" className="py-24 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto mb-16">
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-6">
-            The Problem
+            The Credential
           </h2>
           
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
-              The shift to agentic AI isn't a product decision — it's an organizational transformation. 
-              New hiring bar. New operating model. New vendor landscape.
+              I led the transformation at Ada — from rule-based chatbot to production-scale agentic 
+              AI — owning presales, solutions, and customer success through every phase. I know where 
+              it breaks, what to hire first, and how to get enterprise customers to bet on you anyway.
             </p>
             
-            <p>
-              Most software companies are 12–18 months behind. The ones closing that gap aren't 
-              figuring it out alone.
+            <p className="text-foreground/80 font-medium">
+              That's not consulting. That's operational memory.
             </p>
           </div>
         </div>
         
-        {/* Subtle divider */}
         <div className="max-w-xl mx-auto">
           <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent" />
         </div>
@@ -29,4 +28,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Credential;
