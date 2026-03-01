@@ -14,13 +14,7 @@ const Header = () => {
         
         <nav className="flex items-center gap-8">
           <a 
-            href="#about" 
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-          >
-            About
-          </a>
-          <a 
-            href="#engagement" 
+            href="#connect" 
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             Connect

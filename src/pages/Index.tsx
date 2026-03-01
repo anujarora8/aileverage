@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import EngagementModel from "@/components/EngagementModel";
+import Connect from "@/components/Connect";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -11,6 +12,7 @@ const Index = () => {
       <Hero />
       <About />
       <EngagementModel />
+      <Connect />
       <Footer />
     </div>
   );

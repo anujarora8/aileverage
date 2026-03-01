@@ -1,0 +1,33 @@
+import { Button } from "@/components/ui/button";
+import { Linkedin, Mail } from "lucide-react";
+
+const Connect = () => {
+  return (
+    <section id="connect" className="py-24 relative">
+      <div className="container mx-auto px-6">
+        <div className="max-w-3xl mx-auto">
+          <p className="text-lg text-muted-foreground leading-relaxed mb-10">
+            Accepting a limited number of new advisory roles for 2026.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row items-start gap-4">
+            <Button variant="hero" size="lg" className="w-full sm:w-52" asChild>
+              <a href="https://www.linkedin.com/in/anujarora95/" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="w-5 h-5" />
+                Connect on LinkedIn
+              </a>
+            </Button>
+            <Button variant="heroOutline" size="lg" className="w-full sm:w-52" asChild>
+              <a href="mailto:anuj@aileverage.dev">
+                <Mail className="w-5 h-5" />
+                Send an Email
+              </a>
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Connect;
