@@ -7,12 +7,12 @@ const EngagementModel = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-6">
-            Focused. Senior. Hands-on.
+            How We Work
           </h2>
           
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed mb-10">
             <p>
-              This isn't theory. We've hired the teams, built the playbooks, and delivered the outcomes. 
+              Not theory. Proven playbooks, hired teams, delivered outcomes. 
               At scale. We embed with your leadership team — no junior staff, no deliverable-and-disappear — across 
               the three areas that actually move the needle:
             </p>

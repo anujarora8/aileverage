@@ -14,7 +14,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: '0.1s' }}>
-            We help software companies become AI companies.
+            I help software companies become AI companies.
           </p>
         </div>
       </div>

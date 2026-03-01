@@ -4,14 +4,10 @@ const About = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto mb-16">
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-6">
-            The Problem
+            Where Most Companies Are
           </h2>
           
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
-            <p className="text-foreground/80 font-medium">
-              Not with a deck. With a playbook we've already run.
-            </p>
-            
             <p>
               The shift to agentic AI isn't a product decision — it's an organizational transformation. 
               New hiring bar. New operating model. New vendor landscape.
