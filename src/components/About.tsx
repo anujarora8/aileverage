@@ -9,7 +9,7 @@ const About = () => {
           
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p className="text-foreground/80 font-medium">
-              Not with a deck. With a playbook I've already run.
+              Not with a deck. With a playbook we've already run.
             </p>
             
             <p>

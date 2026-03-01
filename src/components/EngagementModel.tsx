@@ -12,8 +12,8 @@ const EngagementModel = () => {
           
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed mb-10">
             <p>
-              This isn't theory. I've hired the teams, built the playbooks, and delivered the outcomes. 
-              At scale. I embed with your leadership team — no junior staff, no deliverable-and-disappear — across 
+              This isn't theory. We've hired the teams, built the playbooks, and delivered the outcomes. 
+              At scale. We embed with your leadership team — no junior staff, no deliverable-and-disappear — across 
               the three areas that actually move the needle:
             </p>
 
