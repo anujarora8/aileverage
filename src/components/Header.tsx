@@ -15,9 +15,9 @@ const Header = () => {
         <nav className="flex items-center gap-8">
           <a 
             href="#connect" 
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            className="text-sm text-muted-foreground hover:text-foreground transition-colors border border-border/50 rounded-lg px-4 py-2 hover:border-border"
           >
-            Connect With Us
+            Connect with us
           </a>
         </nav>
       </div>
