@@ -17,7 +17,7 @@ const Header = () => {
             href="#connect" 
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
-            Connect
+            Connect With Us
           </a>
         </nav>
       </div>
