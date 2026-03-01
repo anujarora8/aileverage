@@ -7,17 +7,41 @@ const EngagementModel = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-6">
-            Who It's For
+            Focused. Senior. Hands-on.
           </h2>
           
-          <p className="text-lg text-muted-foreground leading-relaxed mb-10">
-            Software companies with traction who know they need to evolve but don't have the 
-            internal expertise to lead an AI transformation without getting it wrong.
-          </p>
+          <div className="space-y-6 text-lg text-muted-foreground leading-relaxed mb-10">
+            <p>
+              This isn't theory. I've hired the teams, built the playbooks, and delivered the outcomes. 
+              At scale. I embed with your leadership team — no junior staff, no deliverable-and-disappear — across 
+              the three areas that actually move the needle:
+            </p>
 
-          <p className="text-lg text-muted-foreground mb-8">
-            Limited engagements for 2026.
-          </p>
+            <ul className="space-y-4">
+              <li>
+                <span className="text-foreground font-medium">Talent</span> — defining the AI hiring bar, building the org
+              </li>
+              <li>
+                <span className="text-foreground font-medium">Operating Model</span> — stage-gated rollouts, scorecards, internal rhythm
+              </li>
+              <li>
+                <span className="text-foreground font-medium">Vendor & Tech</span> — cut through the noise, deploy the right stack, get ROI
+              </li>
+            </ul>
+
+            <p>
+              Built for software companies with traction who know they need to evolve but don't have the 
+              internal expertise to lead an AI transformation without getting it wrong.
+            </p>
+
+            <p className="italic text-foreground/80 font-medium">
+              That's not consulting. That's operational memory.
+            </p>
+
+            <p>
+              Accepting a limited number of new advisory roles for 2026.
+            </p>
+          </div>
           
           <div className="flex flex-col sm:flex-row items-start gap-4">
             <Button variant="hero" size="lg" className="w-full sm:w-52" asChild>
