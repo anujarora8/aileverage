@@ -16,13 +16,13 @@ const EngagementModel = () => {
 
             <ul className="space-y-2">
               <li>
-                <span className="text-foreground font-medium">Talent</span> - defining the AI hiring bar, building the org
+                <span className="font-medium">Talent</span> - defining the AI hiring bar, building the org
               </li>
               <li>
-                <span className="text-foreground font-medium">Operating Model</span> - stage-gated rollouts, scorecards, internal rhythm
+                <span className="font-medium">Operating Model</span> - stage-gated rollouts, scorecards, internal rhythm
               </li>
               <li>
-                <span className="text-foreground font-medium">Vendor & Tech</span> - cut through the noise, deploy the right stack, get ROI
+                <span className="font-medium">Vendor & Tech</span> - cut through the noise, deploy the right stack, get ROI
               </li>
             </ul>
           </div>
