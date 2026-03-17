@@ -21,7 +21,7 @@ const Connect = () => {
               </a>
             </Button>
             <Button variant="heroOutline" size="lg" className="w-full sm:w-52" asChild>
-              <a href="<a href="mailto:anuj@aileveragegroup.com">">
+              <a href="mailto:anuj@aileveragegroup.com">">
                 <Mail className="w-5 h-5" />
                 Send an Email
               </a>
