@@ -9,20 +9,22 @@ const EngagementModel = () => {
           
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
-              Not theory. Proven playbooks, hired teams, delivered outcomes. 
-              At scale. We embed with your leadership team - no junior staff, no deliverable-and-disappear - across 
-              the three areas that actually move the needle:
+              We embed with your leadership team - senior operator, no junior handoffs, no deliverable-and-disappear. We've built and deployed this playbook before. You get the benefit of that without the trial and error.
             </p>
 
-            <ul className="space-y-2">
+            <p className="text-foreground/80">
+              Three areas. Each one a gap most companies underestimate:
+            </p>
+
+            <ul className="space-y-3">
               <li>
-                <span className="font-medium">Talent</span> - defining the AI hiring bar, building the org
+                <span className="font-medium text-foreground">Talent</span> - Define the AI hiring bar before you get burned by the wrong hires. Build the org that can actually execute.
               </li>
               <li>
-                <span className="font-medium">Operating Model</span> - stage-gated rollouts, scorecards, internal rhythm
+                <span className="font-medium text-foreground">Operating Model</span> - Stage-gated rollouts, internal scorecards, decision rhythm. The infrastructure that makes AI stick.
               </li>
               <li>
-                <span className="font-medium">Vendor & Tech</span> - cut through the noise, deploy the right stack, get ROI
+                <span className="font-medium text-foreground">Vendor & Tech</span> - Cut through the noise, select the right stack, and measure ROI before you're locked in.
               </li>
             </ul>
           </div>
