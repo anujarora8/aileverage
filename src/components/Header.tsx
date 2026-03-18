@@ -1,4 +1,4 @@
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.svg";
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
           <img 
             src={logo} 
             alt="AI Leverage Group" 
-            className="h-6 w-auto invert opacity-90"
+            className="h-6 w-auto opacity-90"
           />
         </a>
         
