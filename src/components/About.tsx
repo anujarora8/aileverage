@@ -3,7 +3,7 @@ const About = () => {
     <section id="about" className="py-24 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto mb-16">
-          <h2 className="font-display text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="font-display text-3xl md:text-4xl font-light mb-6">
             Where Most Companies Are
           </h2>
           

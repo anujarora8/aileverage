@@ -9,7 +9,7 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-           <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 animate-fade-up">
+           <h1 className="font-display text-5xl md:text-7xl font-light mb-6 animate-fade-up">
             AI Leverage Group
           </h1>
           

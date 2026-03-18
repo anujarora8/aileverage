@@ -8,7 +8,7 @@ const Header = () => {
           <img 
             src={logo} 
             alt="AI Leverage Group" 
-            className="h-7 w-auto opacity-90"
+            className="h-5 w-auto opacity-90"
           />
         </a>
         
