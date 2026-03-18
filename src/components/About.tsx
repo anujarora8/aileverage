@@ -9,13 +9,7 @@ const About = () => {
           
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
-              The shift to agentic AI isn't a product decision — it's an organizational transformation. 
-              New hiring bar. New operating model. New vendor landscape.
-            </p>
-            
-            <p>
-              Most software companies are 12–18 months behind. The ones closing that gap aren't 
-              figuring it out alone.
+              The shift to agentic AI isn't a product decision - it's an organizational transformation. That means rethinking who you hire, how you operate, and which vendors actually deliver. Most software companies are 12-18 months behind on all three. The ones closing the gap aren't figuring it out alone.
             </p>
           </div>
         </div>
