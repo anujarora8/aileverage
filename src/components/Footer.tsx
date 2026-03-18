@@ -8,7 +8,7 @@ const Footer = () => {
           <img 
             src={logo} 
             alt="AI Leverage Group" 
-            className="h-12 w-auto opacity-60"
+            className="h-9 w-auto opacity-60"
           />
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} AI Leverage LLC
