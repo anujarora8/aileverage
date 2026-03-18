@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Manrope', 'sans-serif'],
-        display: ['Manrope', 'sans-serif'],
+        display: ['Cormorant Garamond', 'serif'],
         tight: ['Inter Tight', 'sans-serif'],
       },
       colors: {
