@@ -21,7 +21,7 @@ const Connect = () => {
               </ShimmerButton>
             </a>
             <a href="mailto:anuj@aileveragegroup.com">
-              <ShimmerButton className="w-full sm:w-56 gap-2 text-sm">
+              <ShimmerButton className="w-full sm:w-56 gap-2 text-xs">
                 <Mail className="w-4 h-4" />
                 Send an Email
               </ShimmerButton>
