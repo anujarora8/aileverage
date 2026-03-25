@@ -9,7 +9,7 @@ const EngagementModel = () => {
           
            <div className="space-y-6 text-sm text-muted-foreground leading-relaxed">
             <p>
-              We embed with your leadership team — one operator who's actually done this, no junior staff, no deliverable-and-disappear. The playbook already exists. We're not building it on your dime.
+              We embed with your leadership team — one operator, full accountability, start to finish. The playbook already exists. We're not building it on your dime.
             </p>
 
             <p className="text-foreground/80">
