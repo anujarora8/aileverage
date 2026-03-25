@@ -9,13 +9,13 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-           <h1 className="font-display text-5xl md:text-7xl font-light mb-6 animate-fade-up">
+           <h1 className="font-display text-3xl md:text-5xl font-light mb-6 animate-fade-up">
             AI Leverage Group
-          </h1>
+           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: '0.1s' }}>
+           <p className="text-sm md:text-base text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: '0.1s' }}>
             We help software companies become AI companies.
-          </p>
+           </p>
         </div>
       </div>
       
