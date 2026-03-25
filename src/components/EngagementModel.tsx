@@ -9,7 +9,7 @@ const EngagementModel = () => {
           
            <div className="space-y-6 text-sm text-muted-foreground leading-relaxed">
             <p>
-              We embed with your leadership team - senior operator, no junior handoffs, no deliverable-and-disappear. We've built and deployed this playbook before. You get the benefit of that without the trial and error.
+              We embed with your leadership team — one operator who's actually done this, no junior staff, no deliverable-and-disappear. The playbook already exists. We're not building it on your dime.
             </p>
 
             <p className="text-foreground/80">
@@ -18,13 +18,13 @@ const EngagementModel = () => {
 
             <ul className="space-y-3">
               <li>
-                <span className="font-medium text-foreground">Talent</span> - Define the AI hiring bar before you get burned by the wrong hires. Build the org that can actually execute.
+                <span className="font-medium text-foreground">Talent</span> — Define the AI hiring bar. Build the org that executes.
               </li>
               <li>
-                <span className="font-medium text-foreground">Operating Model</span> - Stage-gated rollouts, internal scorecards, decision rhythm. The infrastructure that makes AI stick.
+                <span className="font-medium text-foreground">Operating Model</span> — Stage-gated rollouts, internal scorecards, decision rhythm.
               </li>
               <li>
-                <span className="font-medium text-foreground">Vendor & Tech</span> - Cut through the noise, select the right stack, and measure ROI before you're locked in.
+                <span className="font-medium text-foreground">Vendor & Tech</span> — Cut through the noise, pick the right stack, measure ROI.
               </li>
             </ul>
           </div>
