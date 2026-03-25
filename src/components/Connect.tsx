@@ -15,13 +15,13 @@ const Connect = () => {
           
           <div className="flex flex-col sm:flex-row items-start gap-4">
             <a href="https://www.linkedin.com/in/anujarora95/" target="_blank" rel="noopener noreferrer">
-              <ShimmerButton className="w-full sm:w-56 gap-2 text-sm">
+               <ShimmerButton className="w-full sm:w-56 gap-2 text-xs">
                 <Linkedin className="w-4 h-4" />
                 Connect on LinkedIn
               </ShimmerButton>
             </a>
             <a href="mailto:anuj@aileveragegroup.com">
-              <ShimmerButton className="w-full sm:w-56 gap-2 text-sm">
+              <ShimmerButton className="w-full sm:w-56 gap-2 text-xs">
                 <Mail className="w-4 h-4" />
                 Send an Email
               </ShimmerButton>
