@@ -14,9 +14,10 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Manrope', 'sans-serif'],
-        display: ['Cormorant Garamond', 'serif'],
-        tight: ['Inter Tight', 'sans-serif'],
+        sans: ['IBM Plex Mono', 'monospace'],
+        display: ['IBM Plex Mono', 'monospace'],
+        tight: ['IBM Plex Mono', 'monospace'],
+        mono: ['IBM Plex Mono', 'monospace'],
       },
       colors: {
         border: "hsl(var(--border))",
