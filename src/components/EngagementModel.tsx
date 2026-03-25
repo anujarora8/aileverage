@@ -3,11 +3,11 @@ const EngagementModel = () => {
     <section id="engagement" className="py-24 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-display text-3xl md:text-4xl font-light mb-6">
+           <h2 className="font-display text-2xl md:text-3xl font-light mb-6">
             How We Work
-          </h2>
+           </h2>
           
-          <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+           <div className="space-y-6 text-sm text-muted-foreground leading-relaxed">
             <p>
               We embed with your leadership team - senior operator, no junior handoffs, no deliverable-and-disappear. We've built and deployed this playbook before. You get the benefit of that without the trial and error.
             </p>
