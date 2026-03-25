@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import ShimmerButton from "@/components/ui/shimmer-button";
 import { Linkedin, Mail } from "lucide-react";
 
 const Connect = () => {
