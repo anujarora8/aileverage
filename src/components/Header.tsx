@@ -1,4 +1,5 @@
 import logo from "@/assets/logo.png";
+import ShimmerButton from "@/components/ui/shimmer-button";
 
 const Header = () => {
   return (
@@ -13,11 +14,10 @@ const Header = () => {
         </a>
         
         <nav className="flex items-center gap-8">
-          <a 
-            href="#connect" 
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors border border-border/50 rounded-lg px-4 py-2 hover:border-border"
-          >
-            Connect with us
+          <a href="#connect">
+            <ShimmerButton className="h-9 px-4 text-sm">
+              Connect with us
+            </ShimmerButton>
           </a>
         </nav>
       </div>
