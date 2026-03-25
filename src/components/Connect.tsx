@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import ShimmerButton from "@/components/ui/shimmer-button";
 import { Linkedin, Mail } from "lucide-react";
 
 const Connect = () => {
@@ -14,18 +14,18 @@ const Connect = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-start gap-4">
-            <Button variant="hero" size="lg" className="w-full sm:w-52" asChild>
-              <a href="https://www.linkedin.com/in/anujarora95/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/anujarora95/" target="_blank" rel="noopener noreferrer">
+              <ShimmerButton className="w-full sm:w-52 gap-2">
                 <Linkedin className="w-5 h-5" />
                 Connect on LinkedIn
-              </a>
-            </Button>
-            <Button variant="heroOutline" size="lg" className="w-full sm:w-52" asChild>
-              <a href="mailto:anuj@aileveragegroup.com">
+              </ShimmerButton>
+            </a>
+            <a href="mailto:anuj@aileveragegroup.com">
+              <ShimmerButton className="w-full sm:w-52 gap-2">
                 <Mail className="w-5 h-5" />
                 Send an Email
-              </a>
-            </Button>
+              </ShimmerButton>
+            </a>
           </div>
         </div>
       </div>
