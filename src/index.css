@@ -70,8 +70,8 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Manrope', sans-serif;
-    @apply font-bold tracking-tight;
+    font-family: 'IBM Plex Mono', monospace;
+    @apply font-light tracking-tight;
   }
 }
 
